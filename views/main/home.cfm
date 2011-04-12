@@ -15,10 +15,10 @@
 	</div>
 	<div id="maincol">
 		<div id="tumblr">
-			<h2><a href="http://johngag.tumblr.com">Tumblr</a></h2>
+			<h2><a href="http://johngag.tumblr.com">Tumblr</a>   <img id="tumblr-loading" src="assets/images/ajax-loader.gif" alt="Loading..."></h2>
 		</div>
 		<div id="cftips">
-			<h2><a href="http://www.cftips.net">CFTips.net</a></h2>
+			<h2><a href="http://www.cftips.net">CFTips.net</a>    <img id="cftips-loading" src="assets/images/ajax-loader.gif" alt="Loading..."></h2>
 		</div>
 	</div>
 	<div id="footer">

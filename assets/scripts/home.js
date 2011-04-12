@@ -31,10 +31,12 @@ $(document).ready(function() {
 			for(var i = 0; i < 11; i++){
 				$('#cftips').append('<p><a href="' + items[i].LINK + '">' + items[i].TITLE + '</a></p>');
 			}
+			$('#cftips-loading').hide();
 		}else if(data.TYPE=='tumblr'){
 			for(var i = 0; i < 11; i++){
 				$('#tumblr').append('<p><a href="' + items[i].LINK + '">' + items[i].TITLE + '</a></p>');
 			}
+			$('#tumblr-loading').hide();
 		}
 		//<p><a href="#local.feed.link#">#local.feed.title#</a></p>
 	}
