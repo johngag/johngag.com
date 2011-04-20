@@ -71,12 +71,12 @@ height: 0;
 	} 
 	
 	#leftcol{
-		width:50%; 
+		width:320px;
 	}
 	
 	#maincol{
 		background-color: #FFFFFF;  
-		position: relative;  
+		width:320px; 
 	}
 	
 	#footer{
