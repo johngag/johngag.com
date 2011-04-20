@@ -5,8 +5,8 @@
 <title>John Gagliardi</title>
 <meta name="description" content="The home of John Gagliardi" />
 <meta name="keywords" content="John Gagliardi" />
-<link media="all" href="assets/css/styles.css" rel="stylesheet" type="text/css"  />
-<link media="only screen and (max-width: 800px)" href="assets/css/phone.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" media="all" href="assets/css/styles.css" />
+<link rel="stylesheet" media="only screen and (max-width: 800px)" href="assets/css/phone.css" />
 </head>
 
 <body>	
