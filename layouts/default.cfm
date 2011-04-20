@@ -6,7 +6,7 @@
 <meta name="description" content="The home of John Gagliardi" />
 <meta name="keywords" content="John Gagliardi" />
 <link rel="stylesheet" media="all" href="assets/css/styles.css" />
-<link rel="stylesheet" media="only screen and (max-width: 800px)" href="assets/css/phone.css" />
+<link rel="stylesheet" media="only screen and (max-width: 800px), only screen and (max-device-width: 800px)" href="assets/css/phone.css" />
 </head>
 
 <body>	
