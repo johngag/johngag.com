@@ -65,16 +65,18 @@ height: 0;
 	} 
 	
 	#pagewidth{ 
-		width:320px; 
+		width:100%; 
 		text-align:left; 
 		margin:0 auto; 
 	} 
 	
 	#leftcol{
+		width:100%;
 	}
 	
 	#maincol{
 		background-color: #FFFFFF;  
+		width:100%; 
 	}
 	
 	#footer{
