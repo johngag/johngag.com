@@ -3,7 +3,7 @@
 	<div id="wrapper" class="clearfix">
 	<div id="leftcol">
 		<h1><a href="http://www.johngag.com">John Gagliardi</a></h1>
-		<p><img src="assets/images/johngag.jpg" alt="John Gagliardi" width="400" height="350"></p>
+		<p><img src="assets/images/johngag_web.jpg" alt="John Gagliardi"></p>
 		<div id="social">
 			<a href="http://www.facebook.com/johngag"><img border="0" src="assets/images/social/facebook-48x48.png" alt="Facebook"></a>
 			<a href="http://twitter.com/johnnygag"><img border="0" src="assets/images/social/twitter-48x48.png" alt="Twitter"></a>
