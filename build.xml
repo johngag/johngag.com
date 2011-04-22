@@ -1,0 +1,31 @@
+<project default="all">
+	<property file="build.properties"/>	
+	
+	<target name="all">
+		<tstamp>
+			<format property="version" pattern="yyyyMMddhhmmss" />
+		</tstamp>
+				
+		<antcall target="clean" />
+		<antcall target="copyLinks" />
+		<antcall target="updateSrc" />
+	</target>
+	
+	<target name="clean">
+		<chmod file="${JOHNGAG_ROOT}/rmLinks.sh" perm="744"/>
+		<exec executable="${JOHNGAG_ROOT}/rmLinks.sh" failonerror="true" failifexecutionfails="true"/>
+	</target>
+	
+	<target name="copyLinks">
+		<symlink action="single" link="${JOHNGAG_ROOT}/${LINK_DIR}.${version}" resource="${JOHNGAG_ROOT}/${ASSETS_DIR}" overwrite="true"/>
+		<replaceregexp file="${CONFIG_FILE}" match="linkedDir=(.*)" replace="linkedDir=${URL_ROOT}/${LINK_DIR}.${version}" byline="true"/>
+	</target>
+	
+	<target name="updateSrc">
+		<exec executable="git">
+			<arg value="pull"/>
+			<arg value="origin" />
+			<arg value="${GIT_REPO}" />
+		</exec>
+	</target>
+</project>
