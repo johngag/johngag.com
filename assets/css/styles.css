@@ -57,7 +57,7 @@ height: 0;
 #twocols, #maincol{width:100%; float:none;}
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 800px) {
 	html, body{ 
 		margin:0; 
 		padding:0px;
@@ -66,7 +66,7 @@ height: 0;
 	} 
 	
 	#pagewidth{ 
-		width:320px; 
+		width:400px; 
 		text-align:left; 
 		margin:0 auto; 
 	} 
