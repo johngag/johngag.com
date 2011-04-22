@@ -5,7 +5,7 @@
 <title>John Gagliardi</title>
 <meta name="description" content="The home of John Gagliardi" />
 <meta name="keywords" content="John Gagliardi" />
-<link rel="stylesheet" media="screen" href="assets/css/styles.css" />
+<link rel="stylesheet" media="screen" href="assets/css/styles.min.css" />
 </head>
 
 <body>	
@@ -21,5 +21,5 @@
 </cfoutput>
 </body>
 <script src="http://code.jquery.com/jquery-1.5.2.min.js" language="javascript" type="text/javascript"></script>
-<script src="assets/scripts/home.js" language="javascript" type="text/javascript"></script>
+<script src="assets/scripts/home.min.js" language="javascript" type="text/javascript"></script>
 </html>
