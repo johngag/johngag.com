@@ -57,10 +57,10 @@ height: 0;
 #twocols, #maincol{width:100%; float:none;}
 }
 
-@media only screen and (max-device-width: 800px) {
+@media only screen and (max-device-width: 400px) {
 	html, body{ 
 		margin:0; 
-		padding:2px;
+		padding:0px;
 		width:400px; 
 		text-align:center; 
 	} 
