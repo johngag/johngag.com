@@ -60,7 +60,8 @@ height: 0;
 @media only screen and (max-device-width: 800px) {
 	html, body{ 
 		margin:0; 
-		padding:2px; 
+		padding:2px;
+		width:320px; 
 		text-align:center; 
 	} 
 	
